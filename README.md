@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Temas aprendidos
 
 * [Eventos en angular](https://www.w3schools.com/angular/angular_events.asp)
+
+* [One way data binding](https://www.pluralsight.com/guides/one-and-two-way-data-binding-angular)
+
+* [One way data binding](https://dev.to/danywalls/one-way-and-two-way-data-binding-in-angular-3aif)
