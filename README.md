@@ -34,3 +34,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * [One way data binding](https://www.pluralsight.com/guides/one-and-two-way-data-binding-angular)
 
 * [One way data binding](https://dev.to/danywalls/one-way-and-two-way-data-binding-in-angular-3aif)
+
+* Crear componente listado de forma automatica 
+    * > `ng generate component heroes/listado`
