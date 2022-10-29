@@ -37,3 +37,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 * Crear componente listado de forma automatica 
     * > `ng generate component heroes/listado`
+
+* [Directiva escructural ngFor, ngIf](https://angular.io/guide/structural-directives)

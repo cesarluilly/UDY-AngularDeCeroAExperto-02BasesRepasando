@@ -5,9 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './listado.component.html'
 })
 export class ListadoComponent {
-
-  constructor() { 
-    console.log("Constructor");
+  public heroes: string[] = ['spiderman', 'iroman', 'thor'];
+  public ultimoHeroBorrado:string = "";
+  
+  public borrarHeroe():void{
+    const heroeBorrado = this.heroes.shift();
+    this.ultimoHeroBorrado = heroeBorrado || "";
     
   }
 }

@@ -1,1 +1,25 @@
-<p>listado works!</p>
+<p>listado Herores!</p>
+
+<div *ngIf="ultimoHeroBorrado !== ''">
+    <span>
+        Ultimo heroe borrado: {{ultimoHeroBorrado}}
+    </span>
+</div>
+
+<button (click)="borrarHeroe()">Borrar heroe </button>
+
+<ul>
+    <li *ngFor="let heroe of heroes; let i = index;">
+        {{i + 1 }} - {{heroe}}
+    </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
