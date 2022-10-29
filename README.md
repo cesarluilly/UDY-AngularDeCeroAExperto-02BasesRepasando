@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-# Temas puntuales de la sección
+# Temas puntuales de la sección 4: Introduccion a Angular
 ¿Qué veremos en esta sección?
 Este es un breve listado de los temas fundamentales:
 
@@ -43,7 +43,7 @@ Este es un breve listado de los temas fundamentales:
 
 Esta es la sección donde empezaremos nuestro camino de Angular.
 
-# Temas aprendidos
+## Temas aprendidos
 * [Creacion de componentes manuales y automatico](https://angular.io/guide/component-overview)
 
 * [Eventos en angular](https://www.w3schools.com/angular/angular_events.asp)
@@ -58,3 +58,31 @@ Esta es la sección donde empezaremos nuestro camino de Angular.
 * [Directiva escructural ngFor, ngIf-else, ngTemplate](https://angular.io/guide/structural-directives)
 
 * [Creacion de modulos manualmente](https://angular.io/guide/architecture-modules)
+
+# Temas puntuales de la sección 5: Expandiendo nuestras bases
+¿Qué veremos en esta sección?
+Una vez sentadas las bases de Angular en la sección anterior, vamos a seguir expandiéndolas aquí, con los siguientes temas:
+
+Profundizar un poco más en los módulos
+* FormsModule
+* ngModel
+* @Inputs
+* @outputs
+* Servicios
+* Métodos en servicios
+* Depuraciones
+
+Hay más temas en los videos, pero en forma general esto es lo principal por ahora, tengan presente que aunque todo esto es opcional, la mayor parte de aplicaciones de Angular usan en cierto punto cada uno de los temas que están en esta sección, por lo que hay que asegurarnos de comprender bien cada lección.
+
+## Temas aprendidos
+
+* Creamos un modulo dbz con `ng generate module dbz`
+* Creamos un componente y no queremos el archivo de pruebas `ng generate component dbz/mainPage --skipTests`
+
+
+
+
+
+
+
+
