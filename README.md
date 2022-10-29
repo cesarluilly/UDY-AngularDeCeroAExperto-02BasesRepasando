@@ -27,6 +27,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+# Temas puntuales de la sección
+¿Qué veremos en esta sección?
+Este es un breve listado de los temas fundamentales:
+
+* Crear proyectos de Angular
+* Explicar cada archivo y directorio de un proyecto
+* Componentes
+* Módulos
+* One way data binding
+* Uso del AngularCLI - Angular Command Line Interface
+* Directivas creadas por Angular
+* ngIf y ngIf-else
+* Y más...
+
+Esta es la sección donde empezaremos nuestro camino de Angular.
+
 # Temas aprendidos
 * [Creacion de componentes manuales y automatico](https://angular.io/guide/component-overview)
 
