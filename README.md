@@ -28,6 +28,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 # Temas aprendidos
+* [Creacion de componentes manuales y automatico](https://angular.io/guide/component-overview)
 
 * [Eventos en angular](https://www.w3schools.com/angular/angular_events.asp)
 
@@ -39,3 +40,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     * > `ng generate component heroes/listado`
 
 * [Directiva escructural ngFor, ngIf-else, ngTemplate](https://angular.io/guide/structural-directives)
+
+* [Creacion de modulos manualmente](https://angular.io/guide/architecture-modules)
