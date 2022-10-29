@@ -78,6 +78,18 @@ Hay más temas en los videos, pero en forma general esto es lo principal por aho
 
 * Creamos un modulo dbz con `ng generate module dbz`
 * Creamos un componente y no queremos el archivo de pruebas `ng generate component dbz/mainPage --skipTests`
+* Cuando damos click en un `boton de tipo submit` dentro 
+de un form, se puede utilizar `event?.preventDefault();`
+para no recargar la pagina, pero angular ya tiene otras
+ alternativas a esto.
+ * [Uso de FormsModule de Angular](https://angular.io/api/forms/FormsModule)
+ * Al utilizar FormsModule podemos utilizar `ngSubmit` en lugar del `submit de javascript`
+
+* Recomendacion para las importaciones de archivos.
+    * Primero: Importaciones de Angular
+    * Segundo: Importaciones de Terceros
+    * Tercero: Importaciones de propias de nosotros
+
 
 
 
