@@ -1,10 +1,14 @@
 <p>listado Herores!</p>
 
-<div *ngIf="ultimoHeroBorrado !== ''">
+<div *ngIf="ultimoHeroBorrado !== ''; else noBorrado">
     <span>
         Ultimo heroe borrado: {{ultimoHeroBorrado}}
     </span>
 </div>
+
+<ng-template #noBorrado>
+    <h3>No ha borrado nada</h3>
+</ng-template>
 
 <button (click)="borrarHeroe()">Borrar heroe </button>
 
