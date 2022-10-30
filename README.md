@@ -125,6 +125,12 @@ el famoso **[Two way data binding](https://angular.io/guide/two-way-binding)** (
                 >
             ```
 
+* [Pipes](https://angular.io/guide/pipes) sirve para 
+transformar visualmente la informacion
+    * ```typescript
+        {{personaje.poder | number}}
+        ```
+
 
 
 
