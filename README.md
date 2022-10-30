@@ -90,6 +90,41 @@ para no recargar la pagina, pero angular ya tiene otras
     * Segundo: Importaciones de Terceros
     * Tercero: Importaciones de propias de nosotros
 
+* Parentesis () es para emitir o escuchar eventos
+    * ```html
+        <form (ngSubmit)="agregar()"> 
+        ```
+* Llaves cuadradas [] para establecer alguna propiedad a 
+este elemento HTML(normalmente se pone en el atributo value de un elemento HTML)
+    * ```html
+        <input 
+            type="number" 
+            placeholder="Poder"
+            [value]="nuevo.poder"
+            >
+        ```
+    * ```html
+        <input 
+            type="text" 
+            placeholder="Nombre"
+            [value]="nuevo.nombre"
+            (input)="cambiarNombre($event)"
+            > 
+        ```
+* La siguiente sintaxis significa que quiero tanto escuchar
+como emitir el evento y el valor del evento me interesa
+que caiga dentro de la propiedad `nuevo.nombre` y este es 
+el famoso **[Two way data binding](https://angular.io/guide/two-way-binding)** (comunicacion en dos vias)
+    * `[(ngModel)]="nuevo.nombre"`
+        * ```html
+            <input 
+                type="text" 
+                placeholder="Nombre"
+                name="nombre"
+                [(ngModel)]="nuevo.nombre"
+                >
+            ```
+
 
 
 
