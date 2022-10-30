@@ -20,24 +20,10 @@ export class MainPageComponent {
       poder: 7500
     }
   ];
-  public nuevo:IPersonaje = {
-    nombre: '',
-    poder:0
-  }
 
-  public agregar():void{
-    if(this.nuevo.nombre.trim().length === 0){
-      return;
-    }
-
-    this.personajesPadre.push(this.nuevo);
-    console.log(this.nuevo);
-
-    this.nuevo = {
-      nombre: '',
-      poder:0
-    };
-    
+  public nuevoPadre:IPersonaje= {
+    nombre:"Roshi",
+    poder: 1000
   }
 
   public cambiarNombre(event: any):void{
