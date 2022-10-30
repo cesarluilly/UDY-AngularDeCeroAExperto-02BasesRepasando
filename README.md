@@ -95,7 +95,7 @@ para no recargar la pagina, pero angular ya tiene otras
         <form (ngSubmit)="agregar()"> 
         ```
 * Llaves cuadradas [] para establecer alguna propiedad a 
-este elemento HTML(normalmente se pone en el atributo value de un elemento HTML)
+este elemento HTML o a propiedad de una clase(normalmente se pone en el atributo value de un elemento HTML)
     * ```html
         <input 
             type="number" 
@@ -110,6 +110,10 @@ este elemento HTML(normalmente se pone en el atributo value de un elemento HTML)
             [value]="nuevo.nombre"
             (input)="cambiarNombre($event)"
             > 
+        ```
+    * ```html
+        <!-- Donde personajesHijo es una propiedad con decorador @input -->
+        <app-personajes [personajesHijo]="personajesPadre"></app-personajes>
         ```
 * La siguiente sintaxis significa que quiero tanto escuchar
 como emitir el evento y el valor del evento me interesa
@@ -130,6 +134,13 @@ transformar visualmente la informacion
     * ```typescript
         {{personaje.poder | number}}
         ```
+* Componente padre es el que en su HTML invoca a un 
+selector de otro componente(hijo).
+
+* [Decorador @Input](https://angular.io/api/core/Input) se 
+pone en alguna propiedad del **componente hijo** y es
+para recibir la informacion que enviara el 
+**componente padre**
 
 
 
