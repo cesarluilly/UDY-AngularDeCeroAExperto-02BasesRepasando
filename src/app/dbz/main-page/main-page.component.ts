@@ -30,4 +30,9 @@ export class MainPageComponent {
     console.log(event);
   }
 
+  public agregarNuevoPersonaje(argumento:IPersonaje){
+    this.personajesPadre.push(argumento)
+    
+  }
+
 }

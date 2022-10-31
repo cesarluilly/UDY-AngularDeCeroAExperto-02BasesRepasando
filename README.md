@@ -140,7 +140,7 @@ selector de otro componente(hijo).
 * [Decorador @Input](https://angular.io/api/core/Input) se 
 pone en alguna propiedad del **componente hijo** y es
 para recibir la informacion que enviara el 
-**componente padre**
+**componente padre** a traves de una propiedad
 
 * APUNTE y CONCLUSION PERSONAL. El ciclo de deteccion de 
 cambios de angular, trabaja mas o menos como las referencias
@@ -153,6 +153,11 @@ objeto, entonces ambos tienen la misma informacion.
 **Javascript**, por referencia o valor?](https://medium.com/laboratoria-developers/por-valor-vs-por-referencia-en-javascript-de3daf53a8b9#:~:text=Estrictamente%20hablando%2C%20JavaScript%20no%20nos,es%20la%20referencia%20en%20s%C3%AD.)
     * Los primitivos se pasan por valor
     * Los objetos se pasan por referencia
+
+* [Decorador @Output](https://angular.io/guide/inputs-outputs) 
+este es utilizado cuando tenemos un componente hijo y 
+y este componente necesita [emitir](https://angular.io/api/core/EventEmitter) 
+un valor al componente padre, en conclusion sirve para emitir eventos
 
 
 
