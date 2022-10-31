@@ -174,7 +174,24 @@ la aplicacion y ademas se inyectan a traves
 del constructor automaticamente cuando se requieran, estos
 servicios son lugares centralizados en donde vamos a tener
 la informacion
+    * Toda la manipulacion de data o acceso a la data, 
+    se hace en el servicio.
 
+* [Getters y Setters en Typescript](https://www.typescripttutorial.net/typescript-tutorial/typescript-getters-setters/)
+
+* [Operador spread de javascript ...](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+    * Como romper la referencia de un arreglo para evitar
+    su manipulacion?
+        * ```js
+            // personajes es un arreglo y con el
+            // operador spread(...) sacando nuevos
+            // objetos del arreglo personajes
+            // y lo estamos metiendo a un nuevo 
+            // arreglo [] Y CON ESO ROMPEMOS LA 
+            // REFERENCIA DEL ARREGLO
+
+            return [...this._personajes];
+            ```
 
 
 

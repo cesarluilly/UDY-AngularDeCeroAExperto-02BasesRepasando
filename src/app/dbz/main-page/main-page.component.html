@@ -2,14 +2,11 @@
 <hr>
 <div class="row">
     <div class="col">
-        <app-personajes [personajesHijo]="personajesPadre"></app-personajes>
+        <app-personajes></app-personajes>
     </div>
 
     <div class="col">
-        <app-agregar 
-        [nuevoHijo]="nuevoPadre"
-        (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"
-        ></app-agregar>
+        <app-agregar [nuevoHijo]="nuevoPadre"></app-agregar>
         
     </div>
 </div>
