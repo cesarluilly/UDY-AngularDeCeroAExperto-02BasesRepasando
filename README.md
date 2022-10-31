@@ -44,6 +44,12 @@ Este es un breve listado de los temas fundamentales:
 Esta es la sección donde empezaremos nuestro camino de Angular.
 
 ## Temas aprendidos
+* Documentacion de angular en español https://docs.angular.lat/
+
+* Documentacion de angular en ingles https://angular.io/
+
+* [Crear un nuevo proyecto en angular](https://docs.angular.lat/tutorial/toh-pt0)
+
 * [Creacion de componentes manuales y automatico](https://angular.io/guide/component-overview)
 
 * [Eventos en angular](https://www.w3schools.com/angular/angular_events.asp)
