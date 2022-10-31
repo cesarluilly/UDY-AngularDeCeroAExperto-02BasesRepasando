@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IPersonaje } from '../interfaces/dbz.interface';
+import { DbzService } from '../services/dbz.service';
 
 
 
@@ -35,4 +36,7 @@ export class MainPageComponent {
     
   }
 
+  constructor(public dbzService:DbzService){
+
+  }
 }

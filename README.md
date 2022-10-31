@@ -168,6 +168,12 @@ un valor al componente padre, en conclusion sirve para emitir eventos
         * Presionamos de nuevo F5 y se nos abre el navegado
             asociado a Chrome.
 
+* [Servicios](https://angular.io/tutorial/toh-pt4) trabajan
+bajo singleton, es decir una instancia por toda la 
+la aplicacion y ademas se inyectan a traves
+del constructor automaticamente cuando se requieran, estos
+servicios son lugares centralizados en donde vamos a tener
+la informacion
 
 
 
