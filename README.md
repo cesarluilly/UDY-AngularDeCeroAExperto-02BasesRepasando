@@ -159,6 +159,14 @@ este es utilizado cuando tenemos un componente hijo y
 y este componente necesita [emitir](https://angular.io/api/core/EventEmitter) 
 un valor al componente padre, en conclusion sirve para emitir eventos
 
+* Debugger se puede hacer
+    * Poniendo Breckpoint a nivel de navegador
+    * Poniedo la palabra Debugger en el codigo
+    * Nos posicionamos en el proyecto en VS presionamos
+        F5 y elegimos a Chrome como ambiente de desarrollo
+        * Ponemos el puerto en el cual esta corriendo la app
+        * Presionamos de nuevo F5 y se nos abre el navegado
+            asociado a Chrome.
 
 
 
