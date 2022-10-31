@@ -19,9 +19,10 @@ export class DbzService {
         return [...this._personajes];
     }
 
-    constructor(){
-        console.log("Servicio inicializado");
-        
+    constructor(){}
+
+    public agregarPersonaje(personaje:IPersonaje){
+      this._personajes.push(personaje);
     }
 }
 
