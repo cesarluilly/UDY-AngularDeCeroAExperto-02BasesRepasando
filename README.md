@@ -193,7 +193,41 @@ la informacion
             return [...this._personajes];
             ```
 
+# Seccion 6: Despliegues rapidos a produccion
 
+## Temas puntuales de la sección
+¿Qué veremos en esta sección?
+Este es un breve listado de los temas fundamentales:
+
+* Generar build de producción
+* Desplegarlo rápidamente
+* Netlify
+
+Aquí aprenderemos como generar el build de producción de nuestra aplicación y la desplegaremos en la web rápidamente usando Netlify, el proceso de despliegue en otros servidores es virtualmente el mismo, tomar nuestra carpeta DIST (que contiene la aplicación con archivos HTML, CSS y JS) y desplegarla mediante FTP (preferiblemente sFTP) en el hosting deseado.
+
+* Para generar la version de produccion es
+    * `ng build --prod`
+        * Esto nos genera una carpeta llamada `dist`
+            donde adentro contiente los archivos
+            * main.hasNumber.js
+            * polyfills.hasNumber.js
+            * runtime.hasNumber.js
+            * styles.hasNumber.js
+            * y otros archivos.
+
+            Donde el hasNumber solo sirve al 
+            navegador, por ejemplo si nosotros 
+            ya habiamos subido y queremos volver
+            a subir pero si no ice modificaciones
+            en estilos, entonces voy a tener 
+            el mismo hasNumber en estilos, 
+            lo que significa que no volvere a subir
+            ese archivo ya que quedo intacto y no
+            tiene sentido subirlo de nuevo.
+    * https://www.netlify.com/ aqui creamos un nuevo site
+        y jalamos la carpeta que tiene los archivos de 
+        `main, polyfills, runtime, styles` a lugar que nos
+        indica Netlify
 
 
 
